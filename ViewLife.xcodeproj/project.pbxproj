@@ -92,6 +92,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7631294626D77BFE00D6C08C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7631294726D77C0400D6C08C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7634020026D4C2A5009D67DC /* Main.storyboard */,
+				7634020526D4C2A6009D67DC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7631294826D77C0A00D6C08C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7634023226D50625009D67DC /* Age.swift */,
+				7634023426D50735009D67DC /* DIY.swift */,
+				7634023626D507E7009D67DC /* DIYExp.swift */,
+				763401FE26D4C2A5009D67DC /* LoginVC.swift */,
+				7634023826D508C9009D67DC /* AlmostThere.swift */,
+				7634022C26D4C932009D67DC /* CalcVC.swift */,
+				7634022E26D5045B009D67DC /* SignUpVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7631294926D77C2300D6C08C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				763401FA26D4C2A5009D67DC /* AppDelegate.swift */,
+				763401FC26D4C2A5009D67DC /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		763401EE26D4C2A5009D67DC = {
 			isa = PBXGroup;
 			children = (
@@ -115,20 +154,13 @@
 		763401F926D4C2A5009D67DC /* ViewLife */ = {
 			isa = PBXGroup;
 			children = (
-				763401FA26D4C2A5009D67DC /* AppDelegate.swift */,
-				763401FC26D4C2A5009D67DC /* SceneDelegate.swift */,
-				763401FE26D4C2A5009D67DC /* LoginVC.swift */,
-				7634020026D4C2A5009D67DC /* Main.storyboard */,
+				7631294926D77C2300D6C08C /* Supporting Files */,
+				7631294626D77BFE00D6C08C /* Model */,
+				7631294726D77C0400D6C08C /* View */,
+				7631294826D77C0A00D6C08C /* Controller */,
 				7634020326D4C2A6009D67DC /* Assets.xcassets */,
-				7634020526D4C2A6009D67DC /* LaunchScreen.storyboard */,
 				7634020826D4C2A6009D67DC /* Info.plist */,
-				7634023226D50625009D67DC /* Age.swift */,
-				7634023426D50735009D67DC /* DIY.swift */,
-				7634023626D507E7009D67DC /* DIYExp.swift */,
-				7634022C26D4C932009D67DC /* CalcVC.swift */,
 				7634023A26D515D3009D67DC /* DetailsView.swift */,
-				7634023826D508C9009D67DC /* AlmostThere.swift */,
-				7634022E26D5045B009D67DC /* SignUpVC.swift */,
 				7634023C26D51D3A009D67DC /* CustomCell.swift */,
 			);
 			path = ViewLife;
