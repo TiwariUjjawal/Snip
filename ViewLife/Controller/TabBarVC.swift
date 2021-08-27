@@ -1,24 +1,21 @@
 //
-//  SignUpVC.swift
+//  TabBarVC.swift
 //  ViewLife
 //
-//  Created by UT on 24/08/21.
+//  Created by UT on 26/08/21.
 //
 
 import UIKit
 
-class Age: UIViewController {
+class TabBarVC: UITabBarController {
 
-    @IBOutlet weak var inputAgeButton: UIButton!
-    @IBOutlet weak var inputGenderButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        inputAgeButton.roundedBlueButton()
-        inputGenderButton.roundedBlueButton()
+
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func backButtonPressed(_ sender: Any) {
+    @IBAction func buttonPressed(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
     

@@ -1,27 +1,24 @@
 //
-//  SignUpVC.swift
+//  FirstScreenVC.swift
 //  ViewLife
 //
-//  Created by UT on 24/08/21.
+//  Created by UT on 27/08/21.
 //
 
 import UIKit
 
-class Age: UIViewController {
+class FirstScreenVC: UIViewController {
 
-    @IBOutlet weak var inputAgeButton: UIButton!
-    @IBOutlet weak var inputGenderButton: UIButton!
+    @IBOutlet weak var registerButtonPressed: UIButton!
+    @IBOutlet weak var loginButtonPressed: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        inputAgeButton.roundedBlueButton()
-        inputGenderButton.roundedBlueButton()
+        registerButtonPressed.roundedButton()
+        loginButtonPressed.roundedButton()
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func backButtonPressed(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-    }
-    
+
     /*
     // MARK: - Navigation
 

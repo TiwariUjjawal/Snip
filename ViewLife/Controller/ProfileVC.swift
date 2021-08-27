@@ -7,14 +7,11 @@
 
 import UIKit
 
-class Age: UIViewController {
+class ProfileVC: UIViewController {
 
-    @IBOutlet weak var inputAgeButton: UIButton!
-    @IBOutlet weak var inputGenderButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        inputAgeButton.roundedBlueButton()
-        inputGenderButton.roundedBlueButton()
+
         // Do any additional setup after loading the view.
     }
     
